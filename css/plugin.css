@@ -1,0 +1,62 @@
+#comment-pub-wrapper {
+  width: 100%;
+  clear: both;
+}
+#comment-pub-wrapper label {
+  display: block;
+  width: 100% !important;
+}
+#comment-pub-wrapper #comment-pub-error {
+  display: none;
+  color: #b94a48;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #f2dede;
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  font-family: Arial, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  border: 1px solid #eed3d7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#comment-pub-wrapper .comment-pub {
+  width: 100%;
+}
+#comment-pub-wrapper .comment-pub img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.loveLink{
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	color: #5E5E5E;
+	text-align: right;
+	font-style: italic;
+	text-decoration: none;
+}
+/*Comment List Styling*/
+.gravatar-on{
+	display: block;
+	width: 100%;
+	clear: both;	
+}
+.commentlist .children{
+	position: relative;
+		left: 20.5%;
+	width: 80%;	
+}
+.commentlist .children .children {
+	left: 7.2em;
+	width: 75%;
+}
+.commentlist .avatar {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px #CCCCCC;
+    padding: 0;
+}
+.commentlist .children .avatar{
+	left: -9.8em;
+}
